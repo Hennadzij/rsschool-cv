@@ -59,6 +59,16 @@
             <section id="works">
                 <h2 class="title">My works</h2>
                 <div>Not yet...</div>
+                <h3>Code example</h3>
+                <pre>
+                    function checkParent (src, dest) {
+                        while (src != null) {
+                          if (src.tagName == dest) return src
+                           src = src.parentElement
+                        }
+                        return null;
+                       }
+                    </pre>
             </section>
             <section id="more">
                 <h2 class="title">More</h2>
